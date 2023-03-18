@@ -8,8 +8,8 @@
 
 user = User.create(name: "John Doe")
 
-Message.create(message: "Hello World!", user_id: user.id)
-Message.create(message: "Welcome to practising rails 2!", user_id: user.id)
-Message.create(message: "Welcome to paradise 3!", user_id: user.id)
-Message.create(message: "Hello, Are you okay 4!", user_id: user.id)
-Message.create(message: "Hi everyone, my name is rails 5!", user_id: user.id)
+Greeting.create(message: "Hello World!", user_id: user.id)
+Greeting.create(message: "Welcome to practising rails 2!", user_id: user.id)
+Greeting.create(message: "Welcome to paradise 3!", user_id: user.id)
+Greeting.create(message: "Hello, Are you okay 4!", user_id: user.id)
+Greeting.create(message: "Hi everyone, my name is rails 5!", user_id: user.id)
